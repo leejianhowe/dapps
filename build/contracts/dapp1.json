@@ -17,7 +17,8 @@
         }
       ],
       "stateMutability": "pure",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"helloWorld\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/dapp1.sol\":\"dapp1\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/dapp1.sol\":{\"keccak256\":\"0xbca420da255f37ca70ac0a8a636341f4d3525002a744b808c372779d23b516c1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a9100fb94bea5384dd07340483361c54687a9e2f395a53d8755fdcda89f790f8\",\"dweb:/ipfs/QmbFZZWGJ9sqG6ocntkVmeMhYKGnsUc2auaci5Sp38vByG\"]}},\"version\":1}",
@@ -1218,11 +1219,12 @@
       "events": {},
       "links": {},
       "address": "0xA50B1A28814EDb1e427a24384a270922FA639E79",
-      "transactionHash": "0x6832c311115cf0ac285aa34ff5eec01d7f25b373155eb31c656731cfe5bc2618"
+      "transactionHash": "0x07606809b59299fe9fa9ba330e0e3f740c250b820b5801b87cfe96473eb203f8"
     }
   },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-12-08T07:19:24.395Z",
+  "updatedAt": "2021-12-09T03:18:13.722Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
