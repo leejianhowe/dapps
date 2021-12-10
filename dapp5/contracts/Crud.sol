@@ -34,6 +34,10 @@ contract Crud {
 
   function remove(uint id) public {
     uint idx = findIdx(id);
+    // delete just resets the varibles in back to default
+    // does not completely remove the element
+    // id = 0
+    // string = ""
     delete users[idx];
   }
 
